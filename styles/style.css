@@ -1,0 +1,36 @@
+/* JUMBOTRON */
+.jum {
+    background-color: #056;
+    color: white;
+    padding: 50px;
+} 
+.jum-img {
+    width: 90px;
+}
+
+/* NAVBAR */
+.nab{
+    background-color: #056;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(219, 96, 25);
+
+}
+
+/* CAROUSEL */
+.img-carousel {
+        object-fit: cover;
+        object-position: 0 70%;
+        height: 450px;
+}
+
+/* AULA */
+.titulo-aula {
+    text-align: center;
+    padding: 80px;
+}
