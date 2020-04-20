@@ -1,3 +1,11 @@
+/* GLOBAL */
+a{
+    text-decoration: none;    
+}
+a:hover{
+    background: beige;
+}
+
 /* JUMBOTRON */
 .jum {
     background-color: #056;
@@ -13,10 +21,7 @@
     background-color: #056;
     color: white;
 }
-a {
-    text-decoration: none;
-    color: white;
-}
+
 a:hover{
     color: rgb(219, 96, 25);
 
@@ -33,4 +38,31 @@ a:hover{
 .titulo-aula {
     text-align: center;
     padding: 80px;
+}
+/* CARDS */
+.cards{
+    max-width: 30rem;
+    max-height: 30rem;
+}
+.img-cards {
+    object-fit: cover;
+
+    height: 200px;
+}
+.titulo-cards {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.texto-cards {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-cards {
+    display: flex;
+    justify-content: center ;
+}
+/* FOOTER */
+.footer-css {
+    text-align: center;
 }

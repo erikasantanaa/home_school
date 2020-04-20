@@ -7,6 +7,8 @@
     <title>Home School</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Pacifico&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -22,7 +24,7 @@
         </div>
         <!--NAVBAR -->
         <nav class="navbar navbar-expand-lg nab">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,16 +34,11 @@
                         <a class="nav-link" href="#aula">Aulas</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Exercícios</a>
+                        <a class="nav-link" data-toggle="modal" data-target="
+                        #exercicios" href="">Exercícios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Dicas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre nós</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Surpresa</a>
+                        <a class="nav-link" href="#sobrenos">Sobre nós</a>
                     </li>
                 </ul>
             </div>
@@ -73,56 +70,98 @@
                 <span class="sr-only">Next</span>
             </a>
         </section>
-        <!-- AULA -  -->
-        <section class="container">            
+        <!-- AULAS -->
+        <section class="container-fluid">
             <div class="titulo-aula" id="aula">
                 <h1>Seja bem vindo(a) a sua aula virtual!</h1>
                 <h4>Aqui estão as matérias da sua aula, é só clicar e se divertir com os conteúdos!</h4>
             </div>
-            <!--Cards-->
-            
-            <div class="card p-0 m-3 col-12 col-md-4" style="width: 18rem;">
-                <img src="./img/port.jpg" class="card-img-top" alt="Português">
-                <div class="card-body">
-                    <h5 class="card-title">Português</h5>
-                    <p class="card-text">Some quick example text to bu.</p>
-                    <a href="#" class="btn btn-primary">Estudar</a>
+            <!--Cards (4) -->
+            <div class=" row justify-content-center">
+                <div class="card cards p-0 m-3 col-12 col-md-4" style="width: 18rem;">
+                    <img src="./img/port.jpg" class="card-img-top img-cards" alt="Português">
+                    <div class="card-body p-0 m-3">
+                        <h5 class="card-title titulo-cards">Português</h5>
+                        <p class="card-text texto-cards">
+                            O que é o mundo ? O mundo é o que voce coloca nele: sonhos, amigos, amor, alegria,
+                            pensamentos, palavras, poesias...
+                            Quanto mais você aprende, mais coisas boas você pode colocar no mundo!
+                        </p>
+                        <a href="./pages/port.html" class="btn btn-outline-danger button-cards">Estudar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card p-0 m-3 col-12 col-md-4" style="width: 18rem;">
-                <img src="./img/port.jpg" class="card-img-top" alt="Português">
-                <div class="card-body">
-                    <h5 class="card-title">Matemática</h5>
-                    <p class="card-text">Some quick example text to bu.</p>
-                    <a href="#" class="btn btn-primary">Estudar</a>
+                <div class="card cards p-0 m-3 col-12 col-md-4" style="width: 18rem;">
+                    <img src="./img/mat.jpg" class="card-img-top img-cards" alt="Matematica">
+                    <div class="card-body p-0 m-3">
+                        <h5 class="card-title titulo-cards">Matemática</h5>
+                        <p class="card-text texto-cards">
+                            Do que é feito o mundo? O mundo é feito de plantas, bichos, pessoas, respeito,
+                            possibilidades, regras, jogos, brincadeiras, ect...
+                            Quanto mais você estuda sobre o mundo mais interessante ele ficará!
+                        </p>
+                        <a href="./pages/mat.html" class="btn btn-outline-danger button-cards">Estudar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card p-0 m-3 col-12 col-md-4" style="width: 18rem;">
-                <img src="./img/port.jpg" class="card-img-top" alt="Português">
-                <div class="card-body">
-                    <h5 class="card-title">Ciências</h5>
-                    <p class="card-text">Some quick example text to bu.</p>
-                    <a href="#" class="btn btn-primary">Estudar</a>
+                <div class="card cards p-0 m-3 col-12 col-md-4" style="width: 18rem;">
+                    <img src="./img/cie.jpg" class="card-img-top img-cards" alt="Ciências Historia Geografia">
+                    <div class="card-body p-0 m-3">
+                        <h5 class="card-title titulo-cards">Ciências Historia Geografia</h5>
+                        <p class="card-text texto-cards">
+                            O que é o mundo? O mundo é o que você coloca nele: plantas, monumentos, mapas, Lembranças,
+                            seres humanos, etc...
+                            Quanto mais você conhece o mundo, mais você pode transforma-lós!
+                        </p>
+                        <a href="./pages/cie.html" class="btn btn-outline-danger button-cards">Estudar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card p-0 m-3 col-12 col-md-4" style="width: 18rem;">
-                <img src="./img/port.jpg" class="card-img-top" alt="Português">
-                <div class="card-body">
-                    <h5 class="card-title">Ciências</h5>
-                    <p class="card-text">Some quick example text to bu.</p>
-                    <a href="#" class="btn btn-primary">Estudar</a>
-                </div>
-            </div>
-            <div class="card p-0 m-3 col-12 col-md-4" style="width: 18rem;">
-                <img src="./img/port.jpg" class="card-img-top" alt="Português">
-                <div class="card-body">
-                    <h5 class="card-title">Ciências</h5>
-                    <p class="card-text">Some quick example text to bu.</p>
-                    <a href="#" class="btn btn-primary">Estudar</a>
+                <div class="card cards p-0 m-3 col-12 col-md-4" style="width: 18rem;">
+                    <img src="./img/art.jpeg" class="card-img-top img-cards" alt="Arte">
+                    <div class="card-body p-0 m-3">
+                        <h5 class="card-title titulo-cards">Arte</h5>
+                        <p class="card-text texto-cards">
+                            A arte tem muitas formas e está presente na vida de todos nós.
+                            Pensar sobre a arte também é pensar sobre nossa vida e sobre o mundo em que vivemos.
+                        </p>
+                        <a href="./pages/art.html" class="btn btn-outline-danger button-cards">Estudar</a>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <section>
+        <!-- EXERCICIOS- MODAL -->
+        <div id="exercicios" class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Exercícios</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Termine os seus estudos, resolvendo as atividades dadas pelo seu livro didático de cada matéria. 
+                  Bons estudos!
+                </div>
+              </div>
+            </div>
+          </div> 
+    </section>
+    <section>
+        <!-- FOOTER -->
+        <div id="sobrenos" class="card footer-css">
+            <div class="card-body">
+              <h5 class="card-title">Sobre nós</h5>
+              <p class="card-text">
+                  Site direcionado totalmente para alunos(as) da Escola Estadual de Ensino Fundamental Prof. Cândido Horácio Evelin.
+                  Turma 4° ano / turno: Manhã da professora Eliana.
+              </p>
+            </div>
+          </div>
+    </section>
+
+
+
 
     <br><br><br>
 
