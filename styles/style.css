@@ -2,15 +2,15 @@
 a{
     text-decoration: none;    
 }
-a:hover{
-    background: beige;
+body{
+    font-family: 'Roboto', sans-serif;
 }
-
 /* JUMBOTRON */
 .jum {
-    background-color: #056;
+    background-color: #058;
     color: white;
     padding: 50px;
+    font-family: 'Dancing Script', cursive;
 } 
 .jum-img {
     width: 90px;
@@ -18,12 +18,13 @@ a:hover{
 
 /* NAVBAR */
 .nab{
-    background-color: #056;
+    background-color: #058;
     color: white;
+    font-size: 25px;
 }
 
 a:hover{
-    color: rgb(219, 96, 25);
+    color: rgb(245, 164, 58);
 
 }
 
@@ -50,13 +51,10 @@ a:hover{
     height: 200px;
 }
 .titulo-cards {
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-    
+    text-align: center;    
 }
 .texto-cards {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .button-cards {
     display: flex;
