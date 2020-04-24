@@ -112,6 +112,6 @@ body {
     font-size: 25px;
 }
 .video {
-    width: 700px;
-    align-items: center;
+    max-width: 30rem;
+    max-height: 30rem;
 }
