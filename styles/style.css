@@ -1,49 +1,54 @@
 /* GLOBAL */
-a{
+a {
     text-decoration: none;    
 }
-body{
+a:hover{
+    color: rgb(245, 164, 58);
+}
+body {
     font-family: 'Roboto', sans-serif;
 }
 /* JUMBOTRON */
 .jum {
     background-color: #058;
     color: white;
-    padding: 50px;
+    padding: 30px;
     font-family: 'Dancing Script', cursive;
 } 
 .jum-img {
     width: 90px;
 }
-
 /* NAVBAR */
 .nab{
     background-color: #058;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
-
-a:hover{
-    color: rgb(245, 164, 58);
-
-}
-
 /* CAROUSEL */
 .img-carousel {
         object-fit: cover;
         object-position: 0 70%;
         height: 450px;
 }
-
 /* AULA */
 .titulo-aula {
     text-align: center;
     padding: 80px;
 }
+.text-1 {
+    font-size: 55px;
+    color: #058;
+    font-family: 'Dancing Script', cursive;
+}
+.text-2 {
+    font-size: 25px;
+    color: #058;
+}
 /* CARDS */
 .cards{
     max-width: 30rem;
     max-height: 30rem;
+    border-color: #058;
 }
 .img-cards {
     object-fit: cover;
@@ -51,16 +56,62 @@ a:hover{
     height: 200px;
 }
 .titulo-cards {
-    text-align: center;    
+    text-align: center;
+    color: #058;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
 }
 .texto-cards {
     text-align: center;
+    color: #058;
 }
 .button-cards {
     display: flex;
     justify-content: center ;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+}
+/* EXERCICIOS- MODAL  */
+.borda {
+    
+}
+.text-inicial {
+    text-align: center;
+    color: #058;
+    font-size: 40px;
+}
+.text-modal {
+    color: #058;
+    font-size: 20px;
 }
 /* FOOTER */
 .footer-css {
     text-align: center;
+    color: #058;
+    border-color: #058;
+    padding: 80px;
+}
+.titulo-footer {
+    padding: 30px;
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+}
+.text-footer {
+    font-size: 25px;
+}
+/* PAGINAS DO CARD AULA*/
+/* H1 e video */
+.titulo {
+    padding: 20px;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+.text-0 {
+    text-align: center;
+    color: #058;
+    font-size: 25px;
+}
+.video {
+    width: 700px;
+    align-items: center;
 }

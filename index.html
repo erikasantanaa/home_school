@@ -46,7 +46,7 @@
     </header>
     <main>
         <!--CAROUSEL-->
-        <section id="carouselExampleFade" class="carousel slide carousel-fade container" data-interval="3000">
+        <section id="carouselExampleFade" class="carousel slide carousel-fade container" data-interval="5000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/img-1.jpg" class="d-block w-100 img-carousel" alt="imagem crianças">
@@ -73,8 +73,10 @@
         <!-- AULAS -->
         <section class="container-fluid">
             <div class="titulo-aula" id="aula">
-                <h1>Seja bem vindo(a) ao ínicio das suas aulas!</h1>
-                <h4>Aqui estão as matérias com conteúdos atualizados. É só clicar e se divertir com os conteúdos!</h4>
+                <h1 class="text-1">Seja bem vindo(a) ao ínicio das suas aulas!</h1>
+                <p class="text-2">
+                    Aqui estão as matérias com conteúdos atualizados. É só clicar e se divertir com os conteúdos!
+                </p>
             </div>
             <!--Cards (4) -->
             <div class=" row justify-content-center">
@@ -130,40 +132,45 @@
     </main>
     <section>
         <!-- EXERCICIOS- MODAL -->
-        <div id="exercicios" class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div id="exercicios" class="modal fade borda" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalCenterTitle">Exercícios</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-inicial" id="exampleModalCenterTitle">Exercícios</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-modal">
+                            Termine os seus estudos resolvendo as atividades do seu livro didático de cada matéria.
+                            Bons estudos!
+                        </p>
+                    </div>
                 </div>
-                <div class="modal-body">
-                  Termine os seus estudos, resolvendo as atividades dadas pelo seu livro didático de cada matéria. 
-                  Bons estudos!
-                </div>
-              </div>
             </div>
-          </div> 
+        </div>
     </section>
     <section>
         <!-- FOOTER -->
-        <div id="sobrenos" class="card footer-css">
+        <div id="sobrenos" class=" footer-css">
             <div class="card-body">
-              <h5 class="card-title">Sobre nós</h5>
-              <p class="card-text">
-                  Site direcionado totalmente para alunos(as) da Escola Estadual de Ensino Fundamental Prof. Cândido Horácio Evelin.
-                  Turma 4° ano / turno: Manhã da professora Eliana.
-              </p>
+                <h5 class="card-title titulo-footer">Sobre nós</h5>
+                <p class="card-text text-footer">
+                    Site direcionado totalmente para alunos(as) da Escola Estadual de Ensino Fundamental Prof. Cândido
+                    Horácio Evelin.
+                    Turma 4° ano / turno: Manhã da professora Eliana.
+                </p>
             </div>
-          </div>
+                        <!-- BUTTON INICIO -->
+        <a class="btn btn-outline-primary" href="#" role="button">Ínicio</a>
+        </div>
     </section>
-    <!-- BUTTON -->
-    <a class="btn btn-outline-primary" href="#" role="button">Link</a>
 
 
-    <br><br><br>
+
+
 
 
     <!--JAVASCRIPT-->
